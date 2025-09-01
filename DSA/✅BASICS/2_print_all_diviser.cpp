@@ -1,0 +1,1 @@
+// https://takeuforward.org/data-structure/print-all-divisors-of-a-given-number/

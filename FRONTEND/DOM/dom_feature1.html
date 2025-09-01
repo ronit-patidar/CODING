@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       color: #fff;
+       font-family: sans-serif;
+     }
+     html,body{
+       height : 100%;
+       width : 100%;
+     }
+     body{
+       background-color : #111;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+     #b{
+        color: red;
+        background-color: blue;
+        height: 25px;
+        width: 70px;
+        border: 2px green solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+    </style>
+</head>
+<body>
+    <button id="b">Click Me!</button>
+    <script>
+    var b=document.querySelector('button');
+    var flag=true;
+    b.addEventListener('mouseover',()=>{
+      if(flag){
+        b.style.backgroundColor="blue";
+        flag=false;
+        b.style.cursor="pointer";
+    }
+    else{
+        b.style.backgroundColor="black";
+        flag=true;
+        b.style.cursor="pointer";
+      }
+    });
+    </script>
+</body>
+</html>

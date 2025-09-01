@@ -1,0 +1,19 @@
+why not using http  ?
+
+why create server with express ?
+
+http -> module
+
+express -> package
+
+request
+(object containing detail of client request)
+req.body , req,params , req.query 
+req.cookies , req.headers
+
+response 
+(objects sends data to client)
+res.send() , res.json() , res.status() 
+
+API and REST API
+get,put,delete,post

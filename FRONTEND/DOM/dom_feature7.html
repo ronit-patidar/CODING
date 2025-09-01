@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: sans-serif;
+        }
+        html,body{
+          height : 100%;
+          width : 100%;
+        }
+        body{
+          background-color : #111;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+        #box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 400px;
+            background-color: #E9A5F1;
+            border: 2px black solid;
+            border-radius: 15px;
+            position: relative
+        }
+        img{
+            height: 50%;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div style="cursor: pointer;" id="box">
+        <img src="./assets/heart-fill.png" alt="">
+    </div>
+    <script>
+        var dbl = document.querySelector('#box');
+        var img = document.querySelector('img');
+        dbl.addEventListener('dblclick',function(){
+            img.style.opacity="1";
+            var a=10;
+            setTimeout(()=>{
+                    img.style.opacity="0";
+                },500)
+        }); 
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #fff;
+      font-family: sans-serif;
+    }
+    html,body{
+      height : 100%;
+      width : 100%;
+    }
+    body{
+      background-color : #111;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+    }
+    button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    }
+
+    button:active {
+    background-color: #3e8e41; /* Even darker when clicked */
+    }
+    </style>
+</head>
+<body>
+    <button>Click Me</button>
+    <script>
+        var btn = document.querySelector('button');
+        var body = document.querySelector('body');
+        
+        btn.addEventListener('click',()=>{
+            var x=Math.random()*90;
+            var y=Math.random()*90;
+            
+            var img = document.createElement('img');
+            img.setAttribute('src','./assets/image-removebg-preview.png');
+            img.style.height="100px";
+            img.style.position="absolute";
+            img.style.left=x+'%';
+            img.style.top=y+'%';
+            body.appendChild(img);
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: sans-serif;
+        }
+        html,body{
+          height : 100%;
+          width : 100%;
+        }
+        body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #out{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            background-color: pink;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #in{
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            width: 120px;
+            border: 2px rgb(255, 215, 0) solid;
+            background-color: yellow;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        button {
+            width: 150px;
+            padding: 10px 15px;
+            cursor: pointer;
+            background-color: rgb(88, 81, 219); /* Instagram blue */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.1s ease;
+        }
+        button:active{
+            transform: scale(0.98);
+        }
+        button:hover {
+            background-color: rgba(88, 81, 219, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div id="out">
+        <h1>Who will be the winner of IPL 2025? 🏆</h1>
+        <div id="in">***</div>
+        <button>Guess the Winner</button>
+    </div>
+    <script>
+var arr = [
+    { name: 'CSK 🏆', color: 'rgb(255, 204, 0)' },  // Yellow (Chennai Super Kings)
+    { name: 'RCB 🏆', color: 'rgb(196, 6, 7)' },    // Red (Royal Challengers Bangalore)
+    { name: 'GT 🏆', color: 'rgb(0, 122, 54)' },     // Dark Green (Gujarat Titans)
+    { name: 'SRH 🏆', color: 'rgb(255, 102, 0)' },   // Orange (Sunrisers Hyderabad)
+    { name: 'LSG 🏆', color: 'rgb(0, 128, 0)' },     // Green (Lucknow Super Giants)
+    { name: 'PBKS 🏆', color: 'rgb(227, 32, 38)' },  // Red (Punjab Kings)
+    { name: 'KKR 🏆', color: 'rgb(85, 37, 130)' },   // Purple (Kolkata Knight Riders)
+    { name: 'DC 🏆', color: 'rgb(0, 56, 113)' },     // Blue (Delhi Capitals)
+    { name: 'MI 🏆', color: 'rgb(0, 56, 118)' },     // Blue (Mumbai Indians)
+    { name: 'RR 🏆', color: 'rgb(0, 84, 159)' }      // Pink/Blue (Rajasthan Royals)
+];
+        var btn=document.querySelector('button');
+        var div=document.querySelector('#in');
+        btn.addEventListener('click',()=>{
+            var random=Math.floor(Math.random()*arr.length);
+            div.style.color="gold";
+            div.innerHTML=arr[random].name;
+            div.style.backgroundColor=arr[random].color;
+        })
+    </script>
+</body>
+</html>

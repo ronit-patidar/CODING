@@ -1,0 +1,1 @@
+// https://www.geeksforgeeks.org/assign-stalls-to-k-cows-to-maximize-the-minimum-distance-between-them/#naive-approach-by-iterating-over-all-possible-distances

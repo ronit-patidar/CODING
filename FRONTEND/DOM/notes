@@ -1,0 +1,79 @@
+// web APIs
+// setTimeout(delay)
+// setInterval(controled loop) and clear interval
+// get Attributes(to get attribute eg;src,att,id,clas)and set Attributes(to set attributes)
+//     var a=document.querySlector('box');
+//     var alt = a.getAttributes('id');
+//     var cng = a.setAttributes('id','card');
+//     var cng2 = a.setAttributes('class','card');
+// creating an element 
+// mouse event 
+// keyboard events
+// scroll events 
+// double click events
+// events 
+// wheel events etc
+// mouseenter,mouseleave,mousemove
+// dets -> dets have different properties based  on event listners 
+
+// keypress events sirf document pe hi lagenge 
+
+// HW -> auxilary cursor that moves with original cursor
+
+// when you scroll down navigation goes up and disapperar when  you scroll up it comes back
+
+// local storage 
+
+// session storage
+
+// window object
+
+// location.href ->  redirect to another page 
+// location.reload -> to reload or refresh
+// history.back() -> go to previous page
+// history.forward() -> go to forward page
+// navigator.userAgent -> gives info about browser and system.
+// local storage -> browser storage (5-10mb) used to store data of user.
+// eg : theme,login detail,user photo,number etc. stores in key/value pair.
+
+// // Set an item
+// localStorage.setItem("username", "John");
+
+// // Get an item
+// let name = localStorage.getItem("username"); // "John"
+
+// // Remove an item
+// localStorage.removeItem("username");
+
+// // Clear all items
+// localStorage.clear();
+
+// sessionStorage -> same as localStorage,persist only for duration of the tab.
+
+//  // Set an item
+// sessionStorage.setItem("username", "John");
+
+// // Get an item
+// let name = sessionStorage.getItem("username"); // "John"
+
+// // Remove an item
+// sessionStorage.removeItem("username");
+
+// ⭐
+// // Clear all items
+// sessionStorage.clear();
+
+// let user = { name: "Alice", age: 25 };
+
+// // Save object
+// localStorage.setItem("user", JSON.stringify(user));
+
+// // Retrieve object
+// let savedUser = JSON.parse(localStorage.getItem("user"));
+// console.log(savedUser.name); // Alice
+
+// cookies
+// child nodes
+// classlist
+
+

@@ -1,0 +1,17 @@
+// express server -> nodejs application
+// http -> module(already installed)
+// express -> package(explicitly installed)
+// npm  -> node package manager
+// why postman used instead of browser
+// npx nodemon filename.js(check continous changes or no need to restart the server)
+// npx -> node package executer(execute without installing the package on system)
+// nodemon is a package
+// api -> to communicate two applications
+// rest(Representational state transfer)
+// rest api -> to communicate two applications with specific rules and guidelines for communication.
+// methods in rest api's
+// GET -> TO GET DATA FROM THE SERVER.
+// PUSH -> TO SEND NEW DATA TO THE SERVER[CREATING NEW RESOURCES].
+// PATCH -> TO UPDATE DATA ON THE SERVER.
+// DELETE -> TO REMOVE DATA FROM THE SERVER.
+// npm init -y -> to start backend project

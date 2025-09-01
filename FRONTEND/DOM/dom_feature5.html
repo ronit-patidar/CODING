@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: sans-serif;
+}
+html,body{
+  height : 100%;
+  width : 100%;
+}
+body{
+  background-color : #4E71FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+img{
+    height: 400px;
+    width: 250px;
+    border: 3px black solid;
+    border-radius: 20px;
+    object-fit :cover;
+}
+button{
+    height: 80px;
+    width: 200px;
+    background-color: #5409DA;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer ;
+}
+button:active{
+    transform: scale(0.98);
+}    </style>
+  </head>
+  <body>
+    <img id="img1" src="https://plus.unsplash.com/premium_photo-1673757121102-0ca51260861f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    <button><h2>Swap images</h2></button>
+    <img id="img2" src="https://images.unsplash.com/photo-1526510747491-58f928ec870f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" >
+
+    <script>
+        var btn = document.querySelector('button');
+        var img1 = document.querySelector('#img1');
+        var img2 = document.querySelector('#img2');
+        btn.addEventListener('click', () => {
+            var img1SRC = img1.getAttribute('src');
+            var img2SRC = img2.getAttribute('src');
+
+            img1.setAttribute('src',img2SRC);
+            img2.setAttribute('src',img1SRC);
+        });
+    </script>
+  </body>
+</html>

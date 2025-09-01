@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          color: #fff;
+          font-family:'Courier New', Courier, monospace;
+        }
+        html,body{
+          height : 100%;
+          width : 100%;
+        }
+        body{
+          /* background-color : #111; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        h1{
+            font-weight: 100;
+            font-size: 150px;
+            cursor: pointer;
+            color: rgb(35, 38, 214);
+        }
+        #cur{
+            height: 15px;
+            width: 15px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <h1>RONIT PATIDAR</h1>
+    <div id="cur"><img src="./assets/cursor-fill.png" alt=""></div>
+    <script>
+        var cur = document.querySelector('#cur');
+        var body = document.querySelector('body');
+        body.addEventListener('mousemove',function(dets){
+            console.log(dets);
+            cur.style.left=`${dets.clientX}px`;
+            cur.style.top=`${dets.clientY}px`;
+        })
+    </script>
+</body>
+</html>

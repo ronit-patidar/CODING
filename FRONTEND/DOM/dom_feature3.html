@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        }
+
+        html, body {
+        height: 100%;
+        width: 100%;
+        }
+
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        #outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px; 
+        /* spacing between #inner and button */
+        }
+
+        #inner {
+        height: 250px;
+        width: 250px;
+        background-color: red;
+        border-radius: 50%;
+        border: 4px rgb(255, 0, 255) solid;
+        }
+        button{
+        height: 40px;
+        width: 75px;
+        border: 2px green solid;
+        color: black;
+        background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner"></div>
+        <button>Change Color!</button>
+    </div>
+    <script>
+        var btn=document.querySelector('button');
+        var div=document.getElementById('inner');
+        btn.addEventListener('mouseover',()=>{
+            var x=Math.floor(Math.random()*256);
+            var y=Math.floor(Math.random()*256);
+            var z=Math.floor(Math.random()*256);
+            div.style.backgroundColor=`rgb(${x},${y},${z})`;
+        })   
+    </script>
+</body>
+</html>

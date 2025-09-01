@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #944b4b;
+  font-family: sans-serif;
+}
+html,body{
+  height : 100%;
+  width : 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box {
+    background-color: #ffffff;
+    width: 250px;
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow:  0 4px 190px  rgb(0, 13, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#box h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+#box h5 {
+    margin: 5px 0 15px 0;
+    font-size: 14px;
+    color: red;
+}
+
+#box button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#box button:hover {
+    background-color: #0056b3;
+}
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h3>Lalit Verma</h3>
+        <h5>Stranger</h5>
+        <button>Add Friend</button>
+    </div>
+    <script>
+        var b=document.querySelector('button');
+        var s=document.querySelector('h5');
+        var flag=true;
+        b.addEventListener('click',()=>{
+        if(flag){
+            flag=false;
+            b.innerHTML="Adding...";
+            setTimeout(()=>{
+                s.style.color="green";
+                b.innerHTML="Remove";
+            },3000)
+        }
+        else{
+            flag=true;
+            b.innerHTML="Removing...";
+            setTimeout(()=>{
+                s.style.color="red";
+                b.innerHTML="Add Friend";
+            },3000)
+        }
+        })
+    </script>
+</body>
+</html>

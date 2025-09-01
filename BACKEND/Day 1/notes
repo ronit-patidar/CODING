@@ -1,0 +1,5 @@
+// module -> no need to install
+// package -> need install
+// npm i package_name
+// node filename -> to run
+// require()

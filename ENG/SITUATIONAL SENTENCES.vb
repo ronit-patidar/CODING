@@ -1,0 +1,91 @@
+SITUATIONAL SENTENCES
+
+⭐
+DAILY LIFE INTRODUCTOEREY SENTENCES 
+
+HEY 
+
+HOW HAVE YOU BEEN?
+OR
+HOW ARE YOU DOING?
+OR
+WHAT ARE YOU UPTO?
+
+ANS :
+
+IM DOING FINE.
+THANK YOU.
+
+HOW ABOUT YOU?
+THANKS FOR YOUR TIME. 
+
+PRONANTIATION HELLO
+⭐FOR A BRIEF INTODUCTION
+Hi, I'm Ronit Patidar.
+I'm from Bhopal, Madhya Pradesh, and currently pursuing my studies at Oriental Institute of Science and Technology. I'm actively learning Web Development and Data Structures & Algorithms (DSA) to build a strong foundation in both development and problem-solving. I enjoy creating interactive web projects using HTML, CSS, JavaScript, and the DOM, while also working on improving my coding logic and efficiency through regular DSA practice.
+
+STRENGTHS
+Quick learner and always eager to explore new technologies
+
+WEAKNESS
+Sometimes overthink simple problems, which affects speed.
+
+FOR COMPLIMENTS 
+THANK YOU 
+MY PLEASURE 
+SO NICE OF YOU 
+
+FOR BAD NEWS
+IM SORRY TO HEAR THIS
+
+FOR ORDERING SOMETHING
+CAN I HAVE SOME COFEE?
+CAN I HAVE A PEN?
+CAN I HAVE SOME ICE CREAM?
+
+FOR ASKING RATES AND PRICE
+HOW MUCH IS THIS?
+WHATS THE PRICE?
+HOW MUCH DOES IT COST?
+IS IT EXPENSIVE?
+IS THERE A DISCOUNT?
+
+FOR OFFER SOMETHING
+DO YOU WANT SOME?
+CAN I OFFER YOU A DRINK?
+WOULD YOU LIKE SOME HELP?
+WOULD YOU LIKE TO TRY THIS?
+
+
+5 NEW ENGLISH CHANNEL AND DOCUMENTRY CHANNELS
+IS/AM/ARE -> (PRESENT) ABHI KI BAAT HO RAHI HE
+WAS/WERE -> PAST KI BAAT HO RAHI HE
+USES OF 
+IS -> HE
+AM -> HOON
+ARE -> HE / HO
+WAS AND WERE-> THA/THI/THE
+WE -> HUM
+YOU -> TUM
+THEY -> EK SE JYADA LADKI YA LADKA
+ 
+ VACAB WITH MEANING
+ ASPIRANT
+ ANXIOUS
+ SENSETIVE
+ DILIGENT
+ TACITURN
+ AMBITIOUS
+ MAGNIFICENT
+ CRAP
+ COURAGE
+
+ HAS/HAVE/HAD -> KISI CHEEZ KE PASS HONE KE SENSE ME
+ SINGLE -> HAS
+ MORE THAN ONE -> HAVE
+ I KE SAATH HAVE LAGTA HE 
+ I DONT HAVE _ _ _
+ YOU DONT HAVE _ _ _
+ DO YOU HAVE _ _ _
+ SHE DIDNT HAVE COURAGE
+ USE OF HAD

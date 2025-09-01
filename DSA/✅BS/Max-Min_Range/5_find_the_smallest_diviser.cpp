@@ -1,0 +1,1 @@
+// https://www.geeksforgeeks.org/smallest-divisor-for-sum-constraint-in-array-division/

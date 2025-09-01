@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,body{
+  height : 100%;
+  width : 100%;
+}
+header div {
+    width: 100vw;              /* Full width of viewport */
+    height: 120px;             /* Adjust height as needed */
+    background-color: #F5F5F5; /* Light background */
+    text-align: center;        /* Center text */
+    display: flex;
+    flex-direction: column;    /* Stack h1 above h4 */
+    justify-content: center;   /* Vertically center content */
+    align-items: center;       /* Horizontally center */
+    box-sizing: border-box;  
+    /* box-sizing wid and ht not change by padding */
+    padding: 10px;
+}
+main{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  gap: 40px;
+}
+main .card{
+  box-sizing: border-box;
+  background-color: #FEEBF6;
+  height: 380px;
+  width: auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+img{
+  border-radius: 10px;
+  height: auto;
+  width: 400px;
+}
+.card h3,h2{
+  margin-top: 5px;
+}
+.card:hover{
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+footer{
+  height: 50px;
+  width: 100vw;
+  background-color: #F9F6E6;
+  text-align: center;
+  padding-top: 15px;
+}
